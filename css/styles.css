@@ -1,0 +1,142 @@
+
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;
+    height: 2300px;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell; 
+    margin: 0 auto;
+}
+.logo{
+    flex-grow: 1px;
+    height: 50px;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+    opacity: 0.5;
+    width: 150px;
+    margin-left: 10px;
+}
+
+nav li{
+    display: inline;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+nav a{
+    color: grey;
+    font-weight: bold;
+}
+
+.mission{
+    background-image: url("./img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.goal{
+    height: 100px;
+    width: 1200px;
+    color: grey;
+    text-align: center;
+    background-color: black;
+    margin: -430px auto;
+}
+
+.tea{
+    color: grey;
+    width: 1000px;
+    height: 600px;
+    margin: 830px auto;
+    text-align: center;
+
+}
+.fmg img{
+    width: 300px;
+    height: 200px;
+    
+}
+.tea h1, h2{
+    color: grey;
+    font-weight: bolder;
+    word-spacing:-5px;
+    width: 100%;
+}
+figcaption{
+    font-weight: bolder;
+    margin-top: 10px;
+    
+}
+
+figure{
+    display: inline-block;
+    width: 210px;
+    padding: 18px;
+    justify-items: center;
+    height: 50px;
+}
+.location{
+    background-image: url("./img-locations-background.jpg");
+    height: 500px;
+    width:1200px;
+    margin: 75px 0 0 -90px ;
+    opacity: 0.5;
+}
+.loc{
+    margin: -430px auto;
+}
+
+.first h3{
+    
+    width: 300px;
+    height: 290px;
+    color: grey;
+    display: inline-flex;
+    position: relative;
+    background-color: black;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    
+}
+.first{
+    text-align: center;
+    margin-top:-550px;
+    margin-left: 40px;
+    opacity: 1;
+}
+.first strong{
+    margin-top: 20px;
+}
+.first span{
+    font-size: 22.9px;
+    font-weight: 600;
+    margin-bottom: 25px; 
+}
+footer{
+    color: grey;
+    height: 200px;
+    display:block;
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+}
+.end{
+    color: grey;
+    width: 100%;
+    margin-left: 20px;
+
+}
